@@ -1,9 +1,11 @@
-// main.rs
+// src/main.rs
 
 // disable the standard library
 #![no_std]
 // disable the default main entry point
 #![no_main]
+
+mod vga_buffer;
 
 use core::panic::PanicInfo;
 
